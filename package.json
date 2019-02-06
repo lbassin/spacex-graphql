@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "graphql-yoga": "^1.17.2"
+  },
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

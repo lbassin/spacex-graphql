@@ -1,0 +1,22 @@
+type Query {
+    launches: [Launch!]!
+    launch(id: Int!): Launch!
+    rockets: [Rocket!]!
+}
+
+type Mutation {
+    createRocket(name: String!): Rocket
+}
+
+type Launch {
+    id: ID!
+    name: String!
+    success: Boolean,
+    rocket: Rocket!
+}
+
+type Rocket {
+    id: ID!
+    name: String!
+    useless: String
+}
